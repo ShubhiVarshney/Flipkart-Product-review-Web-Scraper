@@ -13,3 +13,6 @@ TO DO THINGS BEFORE STARTING PROJECT:
    - Scraper.py -> This file will scrap the reviews of the customer from the html page of flipkart (link commented).
    - clsReview.py -> This file will take all the variables created in Scraper.py in a class.
    - ClientApp.py -> This file call the "getReviewsFromURL" method from Scraper.py for execution.
+   
+ At last, run the ClientApp.py file in Anaconda Prompt. After this, in Postman, pass the host and port followed by "/getreviews" and then pass the two variables i.e. websiteURL & URL in dictionary format.
+And, you have have the customer's review scraped!!!
